@@ -63,7 +63,10 @@ dashboard/
 -  How to build a dashboard using HTML, CSS, JavaScript, and Plotly.js
 -  How to integrate data science + blockchain + web development into one meaningful project
 
-
+## analogy behind isolation forest and how its practical for this project 
+-The model works by randomly splitting data points and isolating points that are far from others.
+- Transactions that are statistically very different (too high/low value or abnormal gas/gasPrice patterns) are marked as anomalies.
+  
 ## Why This Project Stands Out
 - Uses Real-Time Blockchain Data (not just static datasets)
 
