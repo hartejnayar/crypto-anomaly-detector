@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Anomaly Detector</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Crypto Market Anomaly Detector</h1>
+  </header>
+
+  <section>
+    <h2>Anomaly Detection Summary</h2>
+      <p>This pie chart shows the proportion of normal vs suspicious transactions detected by the anomaly detection model. It helps quickly understand how many transactions appear unusual.</p>
+    <div id="chart"></div>
+  </section>
+
+  <section>
+    <h2>Transactions Table</h2>
+    <p>The table below lists each transaction with its hash, sender address, timestamp, and anomaly status. You can search or sort the table for easier analysis.</p>
+    <input type="text" id="search-box" placeholder="Search by hash or sender..." />
+
+    <div style="overflow-x:auto;">
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th data-column="hash">Hash </th>
+            <th data-column="from">From </th>
+            <th data-column="timeStamp">Timestamp </th>
+            <th data-column="anomaly">Anomaly </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
