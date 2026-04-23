@@ -38,7 +38,7 @@ It’s a unique project that combines blockchain, machine learning, and web deve
 3️.  Dashboard – HTML, CSS, and JavaScript
 - The dashboard fetches the JSON file.
 
-- A Pie Chart (using Plotly.js) shows Normal vs Suspicious transactions.
+- A Pie Chart [using Plotly.js] shows Normal vs Suspicious transactions.
 
 - A Table displays transaction details with search and sorting.
 
