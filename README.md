@@ -1,6 +1,6 @@
 
 # Crypto Market Anomaly Detector
-This project detects suspicious blockchain transactions in real time using Etherscan API data and Machine Learning (Isolation Forest).
+This project detects suspicious blockchain transactions in real time using Etherscan API data and Machine Learning - Isolation Forest.
 The results are displayed in a clean, interactive web dashboard with a pie chart and searchable transaction table.
 
 It’s a unique project that combines blockchain, machine learning, and web development to showcase how AI can detect anomalies in crypto markets.
